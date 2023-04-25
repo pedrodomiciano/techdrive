@@ -44,27 +44,28 @@
   gap: 10px;
   font-family: inherit;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  color: white;
-  background-color: red;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
   border-style: solid;
   border-width: 2px 2px 2px 2px;
-  border-color: rgba(255, 255, 255, 0.333);
+  border-color: rgba(49, 49, 49, 0.333);
   border-radius: 40px 40px 40px 40px;
   padding: 16px 24px 16px 28px;
   transform: translate(0px, 0px) rotate(0deg);
   transition: 0.2s;
-  box-shadow: -4px -2px 16px 0px #8d0000, 4px 2px 16px 0px rgba(177, 0, 0, 0.48);
+  box-shadow: -4px -2px 16px 0px #ff000094, 2px 2px 10px 0px rgba(255, 0, 0, 0.48);
   margin-top: 30px;
   margin-bottom: 30px;
  }
  
  .button-lanc:hover {
-  color: red;
-  background-color: black;
-  box-shadow: -2px -1px 8px 0px black, 2px 1px 8px 0px rgba(31, 31, 32, 0.48);
+  color:rgb(255, 255, 255);
+  box-shadow: -4px -2px 10px 0px #1d1c1c9f, 2px 2px 20px 0px rgba(110, 110, 110, 0.48);
+  background-color: rgb(0, 0, 0);
+ 
   font-weight: bold;
  }
  
@@ -103,7 +104,7 @@
   .radio-input input[type="radio"]:checked + label {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.151),
       10px 10px 15px rgba(0, 0, 0, 0.218);
-    background: linear-gradient(45deg,rgb(255, 46, 46),rgb(143, 0, 0));
+    background: linear-gradient(140deg, #ff0404, #690404);
     color: white;
     transform: translateY(-4px);
   }
